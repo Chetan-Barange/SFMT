@@ -1,0 +1,55 @@
+.popup {
+    font-family: 'oswald', sans-serif;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 325px;
+    letter-spacing: 2px;
+    top: 17%;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+}
+.popup button{
+    font-family: 'oswald', sans-serif;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(160, 160, 160);
+    color: white;
+    margin-left: 20px;
+    padding: 3px 20px 3px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.popup button:hover{
+    background-color: rgb(39, 39, 39);
+}
+.popup1 {
+    font-family: 'oswald', sans-serif;
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: fit-content;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 8px 0px 0px 40px;
+}
+.popup1 button{
+    font-family: 'oswald', sans-serif;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(160, 160, 160);
+    color: white;
+    margin-left: 20px;
+    padding: 1px 15px 1px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.popup1 button:hover{
+    background-color: rgb(39, 39, 39);
+}

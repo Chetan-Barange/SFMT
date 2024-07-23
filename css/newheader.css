@@ -1,0 +1,25 @@
+.user-dropdown{
+    margin-top: 3%;
+    z-index: 1;
+    display: none;
+}
+.user-dropdown ul li a{
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+.home-navbar ul li:hover .user-dropdown{
+    display: block;
+    position: absolute;
+    background-color: #17181b;
+}
+.home-navbar ul li:hover .user-dropdown ul{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: start;
+    width: 190px;
+}
+.home-navbar ul li:hover .user-dropdown ul li{
+    margin-right:10px;
+    margin-bottom: 13px;
+}

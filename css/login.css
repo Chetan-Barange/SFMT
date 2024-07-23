@@ -1,0 +1,230 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.logo{
+    width: 185px;
+    padding-left: 16px;
+	padding-bottom: 15px;
+}
+.header{
+	width: 100%;
+	box-sizing: border-box;
+	background-size: 100%;
+	background-position: center;
+}
+.navbar
+{
+	pointer-events: visible;
+    display: flex;
+    align-items: center;
+	height: 16vh;
+    background: black;
+    padding-top: 10px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav ul li a
+{
+    text-decoration: none;
+	padding-left: 20px;
+	text-transform: uppercase;
+	padding-right: 20px;
+    font-size: 18px;
+	font-weight: 500;
+    color: #fff;
+}
+nav ul li button
+{
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+    background: transparent;
+	text-transform: uppercase;
+	font-weight: 500;
+    cursor: pointer;
+	font-family: 'Nunito', sans-serif;
+}
+nav ul li button:hover
+{
+    color: #fff;
+}
+nav ul li a:hover
+{
+    color: #fff;
+}
+.menu-item:hover{
+    background-color: black;
+    border-radius: 5px;
+    border-bottom:  3px solid rgba(450,0,60,0.8);
+}
+.menu-item{
+    border-bottom: 3px solid transparent;
+}
+
+/*--top button stars here--*/
+.top-btn .fa {
+    font-size: 2.5rem;
+}
+.top-btn {
+    display: none;
+    position: fixed;
+    bottom: 10vh;
+    right: 50px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+	box-shadow: #777 2px;
+    padding: 3px;
+    border-radius: 90px;
+}
+.top-btn:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*login form starts */
+#login-form
+{
+    display:none;
+    color: rgb(0, 255, 255);
+}
+.form-box
+{
+    width:360px;
+	height:480px;
+	box-shadow: 0 0 10px 5px black;
+    border-radius: 5%;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #fd35821f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background: transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: rgba(900,0,60,0.7);
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.3s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.3s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: rgba(900,0,60,0.7);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:#777;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:rgb(0, 0, 0);
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:rgb(0, 0, 0);
+	font-size: 15;
+}

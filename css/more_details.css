@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(240, 236, 236);
+}
+.mo_de_pa_containter{
+    max-height: 1000vh;
+}
+.more_de_main_sec{
+    height: 67vh;
+    display: flex;
+    background-color: whitesmoke;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.mo_de_pkg_name{
+    font-size: 40px;
+    display: flex;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.mo_de_pkg_dst{
+    padding-left: 10px;
+    font-size: 30px;
+    padding-top: 7px;
+}
+.mo_de_pkg_duration{
+    padding-bottom: 16px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.mo_de_pkg_duration .fas{
+    color: black;
+}
+.more_de_imgs{
+    flex-basis: 70%;
+}
+.more_de_img{
+    height: 45vh;
+    border-radius: 16px;
+    width: 98%;
+}
+.more_de_main_sec_details{
+    flex-basis: 40%;
+    margin-top: 14vh;
+    margin-left: 0;
+}
+.more_de_main_sec_details img{
+    height: 45vh;
+    border-radius: 16px;
+    width: 100%;
+}
+.mo_de_pkg_info_menu{
+    background-color: whitesmoke;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 4px 3px rgba(0,0,0,.2);
+    height: 50px;
+    padding-left: 3%;
+    overflow: hidden;
+}
+.mo_de_pkg_info_menu ul{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+.mo_de_pkg_info_menu ul li a{
+    padding: 30px 45px;
+    font-weight: 600;
+    color: rgb(39, 38, 38);
+    font-size: 19px;
+}
+.mo_de_pkg_info_menu ul li a:hover{
+    color: black;
+    text-decoration: none;
+}
+.mo_de_pkg_det_end{
+    padding-left: 4%;
+    padding-top: 35px;
+    position: relative;
+    z-index: -1;
+    top: 0px;
+}
+.mo_de_pkg_det_features ul li{
+    display: inline-flex;
+}
+.mo_de_pkg_det_features ul li i{
+    font-size: 40px;
+    border-radius: 10px;
+    width: 100px;
+    height: 110px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+.mo_de_pkg_det_features ul li .fas{
+    flex-direction: column;
+    text-align: center;
+    padding-top: 21px;
+}
+.mo_de_pkg_det_features ul li .fas h6{
+    font-size: 10px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+.mo_de_pkg_det_features ul li .fab{
+    flex-direction: column;
+    text-align: center;
+    padding-top: 21px;
+}
+.mo_de_pkg_det_features ul li .fab h6{
+    font-size: 10px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+.mo_de_pkg_det_end_title{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: underline 3px rgba(0,0,0,.2);
+}
+.mo_de_pkg_det_end_pkg_info{
+    width: 70%;
+    padding-top: 35px;
+    line-height: 25px;
+    letter-spacing: .8px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 100;
+    word-spacing: 2px;
+}
+#pkg_det_tour_information{
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+.tour_info_main_flex{
+    display: flex;
+}
+.tour_info_left_flex{
+    flex-basis: 60%;
+}
+.tour_info_left_flex ul{
+    margin-top: 23px;
+    margin-left: 24px;
+}
+.tour_info_left_flex ul li{
+    list-style: decimal;
+    padding-right: 45px;
+    margin-top: 12px;
+    padding-left: 3px;
+    text-align: justify;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.tour_info_right_flex{
+    flex-basis: 40%;
+}
+.tour_info_right_flex ul{
+    margin-top: 23px;
+    margin-left: 24px;
+}
+.tour_info_right_flex ul h5{
+    font-size: 20px;
+}
+.tour_info_right_flex ul li{
+    list-style: circle;
+    padding-right: 45px;
+    color: black;
+    margin-top: 12px;
+    padding-left: 3px;
+    text-align: justify;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.mo_de_pkg_price_offer{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 7px;
+    color: black;
+}
+.mo_de_pkg_price{
+    font-size: 32px;
+    padding-left: 50px;
+    font-weight: 600;
+}
+.book_Nw_btn{
+    margin-left: 70%;
+    margin-top: 30px;
+    margin-bottom: 7%;
+}
+.book_Nw_btn a{
+    text-decoration: none;
+    padding: 13px;
+    color: rgba(0,0,0,.2);
+    border-radius: 10px;
+    font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.863);
+    font-size: 20px;
+    color: white;
+}
+.book_Nw_btn a:hover{
+    background-color: rgba(0,0,0,.2);
+    color: black;
+}

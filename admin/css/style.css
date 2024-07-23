@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amita:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Island+Moments&family=Moon+Dance&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@700&family=Vujahday+Script&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    width: 190px;
+}
+
+.logo-text {
+    width: Auto;
+    height: Auto;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.header {
+    width: 95%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    list-style: none;
+}
+
+.icon .fa {
+    margin: 5px;
+}
+.navbar {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navbar .fa{
+    margin-right: 5px;
+}
+.navbar ul li{
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li::after
+{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: crimson;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+.navbar ul li:hover::after
+{
+    width: 100%;
+    transition: ease 0.5s;
+}
+.dd1
+{
+    color: white;
+}
+.dd2
+{
+    color: white;
+}
+.dropdown-1{
+    display: none;
+}
+.dropdown-2 {
+    display: none;
+}
+.navbar ul li:hover .dropdown-1 {
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    background-color: black;
+    border-radius: 8px;
+}
+.navbar ul li:hover .dropdown-1 ul {
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .dropdown-1 ul li {
+    width: 138px;
+    margin-right:20px;
+    border-bottom: 1px white;
+    text-align: left;
+}
+
+.navbar ul li:hover .dropdown-2 {
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    background-color: black;
+    border-radius: 8px;
+}
+.navbar ul li:hover .dropdown-2 ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .dropdown-2 ul li {
+    width: 152px;
+    margin-right:20px;
+    border-bottom: 1px white;
+    text-align: left;
+}
+.navbar .dd1:hover::after
+{
+    width: 178px;
+}
+.navbar .dd2:hover::after{
+    width: 192px;
+}
+.navbar .dropdown-1 ul li:hover::after
+{
+    width: 100%;
+}
+.navbar .dropdown-2 ul li:hover::after
+{
+    width: 100%;
+}
+.dropdown-1 ul li.ind:hover::after{
+    width: 62px;
+}
+.dropdown-1 ul li.intl:hover::after{
+    width: 115px;
+}
+.dropdown-2 ul li.la:hover::after{
+    width: 125px;
+}
+.footer {
+    margin-top: 55px;
+    height: 35px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}

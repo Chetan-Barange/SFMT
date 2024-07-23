@@ -1,0 +1,112 @@
+*{
+    font-family: 'Oswald',sans-serif;
+}
+.cp-text
+{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: 600;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: darkred;
+}
+.cpass-form
+{
+    width: 900px;
+    min-height: 300px;
+    background: white;
+    border: 4px solid rgb(128, 123, 123);
+    padding: 10px;
+    padding: 20px 30px;
+    margin-top: 80px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.rules .pass-txt
+{
+    margin-left: -25px;
+    margin-top: 10px;
+    color: black;
+}
+.rules 
+{
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: -293px;
+    justify-content: space-between;
+    color: black;
+}
+.rules ol
+{
+    font-family: 'Roboto Condensed',sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.cpass-form .change-text
+{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 30px;
+    display: block;
+}
+.input-text
+{
+
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
+}
+.input-text input{
+    width: 270px !important;
+    height: 20px !important;
+    border: 2px solid #e7e7e7;
+    border-color: black;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+.input-text :required
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.cfrm-btn .btn
+{
+    display: block;
+    width: 305px;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    background: lightslategray;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+.cfrm-btn .btn:hover
+{
+    transform: translate3d(-2px);
+    background: rgb(91, 177, 91);
+}
+.span1
+{
+    position: absolute;
+    left: 330px;
+    transform: translate(0, -50%);
+    top: 518px;
+    cursor: pointer;
+}
+.span1 .fa
+{
+    font-size: 20px;
+    color: grey;
+}

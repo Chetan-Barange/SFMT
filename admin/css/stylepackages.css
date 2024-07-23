@@ -1,0 +1,70 @@
+.packages-txt{
+    font-family: 'Oswald',sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: darkred;
+}
+.table-packages{
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+table{
+    border-collapse: collapse;
+    width: fit-content;
+}
+th, td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 5px solid rgb(128, 123, 123);
+}
+td{
+    font-size: 20px;
+}
+th
+{
+    background-color: rgb(48, 45, 45);
+    color: white;
+}
+table th.action
+{
+     text-align: center;
+}
+button.update{
+    font-family: 'Roboto Condensed',sans-serif;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5px 5px;
+    text-align: center;
+    background: lightslategray;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+button.update:hover{
+    transform: translate3d(-2px);
+    background: rgb(36, 130, 192);
+}
+button.delete{
+    font-family: 'Roboto Condensed',sans-serif;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 5px 5px;
+    text-align: center;
+    background: lightslategray;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+button.delete:hover{
+    transform: translate3d(-2px);
+    background: rgb(223, 48, 48);
+}

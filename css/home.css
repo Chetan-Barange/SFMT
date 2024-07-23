@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Dongle:wght@300;400;700&family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave&family=Vujahday+Script&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+.call ul {
+    font-family: 'Poppins', sans-serif;
+    padding: 3px 3px;
+    font-size: 14px;
+    list-style: none;
+    background:#24262b;
+    color: whitesmoke;
+    text-align: right;
+}
+.call ul li {
+    text-decoration: underline;
+    cursor: pointer;
+    margin-right: 1%;
+    display: inline-block;
+}
+.call ul li .fa {
+    margin-right: 5px;
+}
+.home-navbar .logo img {
+    width: 185px;
+    padding-left: 10%;
+    align-items: center;
+}
+.home-navbar {
+    font-family: 'Poppins', sans-serif;
+    background-color: #24262b;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-navbar ul {
+    font-size: 1.1rem;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+.home-navbar ul li {
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    margin: 0 15px;
+}
+.home-navbar ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.home-navbar ul li button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: none;
+    cursor: pointer;
+    background-color: #17181b;
+    color: white;
+}
+.home-navbar ul li::after {
+    content: "";
+    height: 1px;
+    width: 0;
+    background: whitesmoke;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: 0.3s;
+}
+.home-navbar ul li:hover::after {
+    width: 100%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: fit-content;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.slideshow-container {
+  width: 100%;
+  height: 85vh;
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.myslides{
+    display: none;
+}
+video{
+    z-index: 000;
+    position: absolute;
+    top:14%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+.text{
+    color: #ffffff;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin-top: -4%;
+}
+.text h1{
+  font-size: 73px;
+  font-weight: 500;
+  text-shadow: 0 .3rem .5rem rgba(0,0,0,.9);
+}
+.text p{
+  font-size: 19px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  text-shadow: 0 .3rem .5rem rgba(0,0,0,.9);
+}
+.more-link{
+  margin-top: -15px;
+  font-size: 16px;
+  padding: 9px;
+  text-decoration: none;
+  font-weight: 400;
+  background: rgb(22, 22, 22) ;
+  color: whitesmoke;
+  border: 2px solid rgb(92, 104, 117);
+}
+.more-link:hover{
+   color: whitesmoke;
+   font-weight: 500;
+}
+.dot-btn{
+    margin-top: -12%;
+    position: absolute;
+    padding-left: 45%;
+}
+.dot{
+    margin: 0 3px;
+}
+.dot-btn span{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: slategray;
+    display: inline-block;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.dot-btn .active {
+    background-color: white;
+}
+/*cards starts from here*/
+.cards-body {
+    display: flex;
+    padding-top: 30px;
+    margin: auto;
+}
+.cards-body .cards {
+    background-color: white;
+    color: black;
+    width: fit-content;
+    margin-left: 5%;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 2%;
+    border-color: black;
+}
+.cards-body .cards .fa {
+    font-size: 4rem;
+    margin-right: 15px;
+}
+.cards-body .cards ul {
+    list-style: none;
+}
+.cards-body .cards ul li {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    align-items: center;
+}
+.cards-body .cards .fas {
+    font-size: 5rem;
+    margin-right: 10px;
+}
+/*--top button stars here--*/
+.top-btn .fa {
+    font-size: 2.4rem;
+}
+.top-btn{
+    display: none;
+    position: fixed;
+    bottom: 10vh;
+    right: 50px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    box-shadow:  0 4px 4px 0 rgba(0,0,0,.5);
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+	box-shadow: #777 2px;
+    padding: 2px;
+    border-radius: 50px;
+}
+.top-btn:hover {
+    transform: scale(1.2);
+}
+/*footer starts here */
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:  #24262b;
+    padding: 70px 0;
+}
+.footer-co1{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-co1 h4{
+    font-size: 24px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-co1 ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-co1 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 400;
+    color: #bbb;
+    display: block;
+    transition: all 0.1s ease;
+}
+.footer-co1 ul li a:hover{
+    color: #fff;
+    padding-left: 5px;
+}
+.footer-co1 .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+.footer-co1 .social-links a:hover{
+    color: #24262b;
+    background-color: #fff;
+}
+.copyrights{
+    color: #bbb;
+    text-align: center;
+    padding-top: 10vh;
+    border-end-end-radius: 2px;
+}
+.copyrights-line{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.copyunderline{
+    background: #bbb;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+.footer-co1 {
+width: 25%;
+margin-bottom: 30px;
+
+}
+}
+@media(max-width: 574px){
+.footer-co1 {
+width: 100%;
+
+}
+}
+
+
+
+
+
+
+
+
